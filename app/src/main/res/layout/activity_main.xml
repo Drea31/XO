@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="320dp"
+        android:layout_height="91dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center|right">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn1"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn2"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn2"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn3"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn3"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn4"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn4"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn5"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn5"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn6"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn6"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn7"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn7"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn8"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn8"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn9"
+                    android:layout_width="114dp"
+                    android:layout_height="117dp"
+                    android:onClick="clkbtn9"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn10"
+            android:layout_width="275dp"
+            android:layout_height="72dp"
+            android:onClick="clkbtn10"
+            android:text="Restart" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
